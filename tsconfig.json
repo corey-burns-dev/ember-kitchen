@@ -10,5 +10,13 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": [".astro", "src/**/*"]
+  "include": [
+    ".astro/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.astro"
+  ]
 }

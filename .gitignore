@@ -5,3 +5,7 @@ dist-ssr
 *.log
 *.local
 tsconfig.tsbuildinfo
+
+.astro/
+.wrangler/
+dist/
